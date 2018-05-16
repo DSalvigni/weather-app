@@ -32,7 +32,8 @@ geocode.geocodeAddress(arg.address,(errorMessage, results) => {
             if(errorMessage){
                 console.log(errorMessage);
             } else {
-                console.log(JSON.stringify(weatherResults,undefined,2));
+                //console.log(JSON.stringify(weatherResults,undefined,2));
+                console.log('Currently the weather looks like: '+weatherResults.summary+' and the Temperature(F) is: '+weatherResults.apparentTemperature+'.')
             }
         });
     }

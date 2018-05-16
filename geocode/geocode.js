@@ -1,7 +1,7 @@
 const request = require('request');
 
 //API google key
-var googleKey = 'xxx insert your Google API Key...';
+var googleKey = '';
 //Geocode Function to manage the API call and errors
 var geocodeAddress = (address, callback) =>{
     var encodedAddress = encodeURIComponent(address);
